@@ -1,0 +1,26 @@
+.content-area {
+  width: 871px;
+}
+@media only screen and (max-width: 1199px) {
+  .content-area {
+    width: 700px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .content-area {
+    width: 100%;
+  }
+}
+.widget-area {
+  width: 300px;
+}
+@media only screen and (max-width: 1199px) {
+  .widget-area {
+    width: 250px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .widget-area {
+    display: none;
+  }
+}
